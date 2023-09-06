@@ -1,3 +1,4 @@
+import Footer from '@/app/components/footer/footer'
 import Header from '@/app/components/header/header'
 import s from './home.module.css'
 
@@ -32,6 +33,7 @@ export default function Index() {
                     <div className={`${s.cards}  ${s.banner_3}`}>Jeffrey Wright - Gordon</div>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

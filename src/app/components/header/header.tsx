@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Header() {
     return(
-        <header className={`${s.header}`}>
+        <header className={`background ${s.header}`}>
 
             <Image src={Logo} alt='' id={s.logo} />
 

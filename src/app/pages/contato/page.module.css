@@ -23,6 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
     color: white;
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-size: 20px;
@@ -33,12 +34,6 @@
     background-color: #fff;
     color: red;
     transform: scale(1.04);
-}
-
-.icons {
-    color: white;
-    width: 45px;
-    height: 45px;  
 }
 
 .text {

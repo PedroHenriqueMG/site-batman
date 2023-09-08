@@ -16,15 +16,15 @@ export default function Fotos() {
           <div className={s.container}>
 
             <div className={s.card}>
-              <BsInstagram className={s.icons}/><p className={s.text}>Instagram</p>
+              <BsInstagram style={{width: '45px', height: '45px'}}/><p className={s.text}>Instagram</p>
             </div>
 
             <div className={s.card}>
-              <BsFacebook className={s.icons}/><p className={s.text}>Facebook</p>
+              <BsFacebook style={{width: '45px', height: '45px'}}/><p className={s.text}>Facebook</p>
             </div>
 
             <div className={s.card}>
-              <BsWhatsapp className={s.icons}/><p className={s.text}>Whatsapp</p>
+              <BsWhatsapp style={{width: '45px', height: '45px'}}/><p className={s.text}>Whatsapp</p>
             </div>
 
           </div>
